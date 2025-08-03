@@ -139,6 +139,9 @@ int main (){
     for(int i =0 ; i <=n ; i++ ){
         sum = i+sum;
     }
-    printf("%d\n", sum);
+    printf(" sum  is %d\n", sum);
+    for(int i =  n; i >= n;i-- ){
+        printf("%d\n" , i) ;
+    }
     return 0 ;
 }
