@@ -154,7 +154,7 @@
 // int main(){
 //     int n;
 //     int sum = 0;
-//     printf("Entar Number : ");
+//     printf("Enter Number : ");
 //     scanf("%d",&n);
 
 //     for(int i = 1 , j = n ; i <= n && j>= 1 ; i++ , j--){
@@ -167,5 +167,20 @@
 
 
 // ===================================================================
-//  ===================  👉👉  🔹🔹  For loop 0.1 Version   ==========
+//  ===================  👉👉  🔹🔹  For loop 0.2 Version   ==========
 //  ==================================================================
+
+#include <stdio.h>
+int main(){
+     int n;
+     int sum = 0 ;
+     printf("Entar Number  :");
+     scanf("%d" , &n);
+
+     for( int j  = n ; j>=1; j-- ){
+        sum = sum +j ;
+        printf("%d\n" , j);
+     }
+     printf("sum is %d\n" , sum);
+    return 0 ;
+}
