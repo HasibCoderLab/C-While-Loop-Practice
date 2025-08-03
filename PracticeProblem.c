@@ -182,5 +182,8 @@ int main(){
         printf("%d\n" , j);
      }
      printf("sum is %d\n" , sum);
+
     return 0 ;
 }
+
+// ✅  Question -8 Print the Sum of first  n  Naturan Numbers . 
