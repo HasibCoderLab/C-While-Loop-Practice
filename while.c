@@ -6,7 +6,7 @@ int main(){
         i++;
     }
 }
-
+// ---------------------------------
 #include <stdio.h>
 int main(){
  int n;
@@ -19,6 +19,7 @@ int main(){
  }
  return 0 ;
 }
+// ------------------------------
 
 # include <stdio.h>
  int main(){
@@ -30,7 +31,7 @@ int main(){
 return 0 ;
  }
 
-
+// -----------------------------
 #include <stdio.h>
 
 int main (){
@@ -54,7 +55,7 @@ int main(){
   }while(i<=5);
     return 0;
 }
-
+// -----------------------------
 #include <stdio.h>
 int main(){
     int i = 5;
@@ -64,7 +65,7 @@ int main(){
     }while(i>=1);
     return 0 ;
 }
-
+// ----------------------------
 #include <stdio.h>
 int main()
 {
