@@ -1,6 +1,6 @@
 
 // ===================================================================
-//  ===================  👉👉  🔹🔹  Practice Problem  =================
+//  ===================  👉👉  🔹🔹  PracticeProblem  =================
 //  ==================================================================
 
 
@@ -69,15 +69,34 @@
 // }
   //  ✅ ৫. সমস্যা: ইউজার একটি সংখ্যা ইনপুট দিবে, সেই সংখ্যার ১ থেকে ১০ পর্যন্ত গুণফল  🟢 ইনপুট: 5
 
-  #include  <stdio.h>
-  int main (){
-     int n ;
-     printf("Enter Number : ");
-     scanf("%d",&n);
-     int i = 1;
-    while (i <= 10) {
-      printf("%d x %d  = %d\n  ", n,i, n*i);
-      i++ ;
-    }    
-    return 0 ; 
-  }
+//   #include  <stdio.h>
+//   int main (){
+//      int n ;
+//      printf("Enter Number : ");
+//      scanf("%d",&n);
+//      int i = 1;
+//     while (i <= 10) {
+//       printf("%d x %d  = %d\n  ", n,i, n*i);
+//       i++ ;
+//     }    
+//     return 0 ; 
+//   }
+
+
+// ✅  Question -6 Print the numbers from 0 to n , if  n  is given by user
+
+#include <stdio.h>
+int main(){
+int n;
+printf("Enter the number : ");
+scanf("%d", &n);
+
+int i = 0;
+while(i<=n){
+    printf("%d\n", n);
+    i++;
+}
+
+    return 0  ;
+
+}
