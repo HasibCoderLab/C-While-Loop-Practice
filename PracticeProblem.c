@@ -104,22 +104,41 @@
 // ✅  Question -7 Print the Sum of first  n  Naturan Numbers . 
 // Also  , Print them in reverse 
 
+// #include <stdio.h>
+// int main(){
+//     int n ; 
+//     int sum = 1;
+//     printf("Enter Number : ");
+//     scanf("%d" , &n);
+//     int i = 0 ;
+//     while( i <= n){
+        
+//         sum = sum + i ;
+//         i++;
+        
+
+//     }
+//     printf("%d\n" , sum);
+
+//     return 0 ;
+
+// }
+
+
+// ===================================================================
+//  ===================  👉👉  🔹🔹  For loop Version  =================
+//  ==================================================================
+
 #include <stdio.h>
-int main(){
-    int n ; 
-    int sum = 1;
+int main (){
+    int n ;
+    int sum = 0;
     printf("Enter Number : ");
-    scanf("%d" , &n);
-    int i = 0 ;
-    while( i <= n){
-        
-        sum = sum + i ;
-        i++;
-        
-
+    scanf("%d" , &n) ;
+       
+    for(int i =0 ; i <=n ; i++ ){
+        sum = i+sum;
     }
-    printf("%d\n" , sum);
-
+    printf("%d\n", sum);
     return 0 ;
-
 }
